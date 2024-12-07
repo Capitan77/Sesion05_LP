@@ -1,6 +1,6 @@
 <wep-app xmlns="java.sun.com/xml/ns/javaee" version="3.0">
     <display-name>Clase05</display-name>
     <welcome-file-list>
-        <welcome-file>ListadoPersonasServlet</welcome-file>
+        <welcome-file>personas</welcome-file>
     </welcome-file-list>
 </wep-app>

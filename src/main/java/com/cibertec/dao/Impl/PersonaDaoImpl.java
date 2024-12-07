@@ -15,7 +15,7 @@ public class PersonaDaoImpl implements PersonaDao {
     @Override
     public List<Persona> listarPersonas() throws SQLException {
         List<Persona> resultado = new ArrayList<>();
-        String query = "SELECT id, nombre, apellido, edad, correo FROM Personas;";
+        String query = "SELECT id, nombre, apellido, edad, correo, telefono FROM Personas;";
 
         try(
                 Connection connection = DBConnection.getConnection();
