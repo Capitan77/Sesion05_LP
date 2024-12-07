@@ -14,8 +14,8 @@
                <h1 class="p-3 mb-2 bg-info-subtle text-info-emphasis card shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto p-2"
                style="width: 600px;">Personas Registradas</h1>
 
-               <table class="table table-hover table-bordered">
-                     <thead>
+               <table class="table table-hover table-bordered border border-info-subtle ">
+                     <thead >
                            <th>ID</th>
                            <th>Nombre</th>
                            <th>Apellido</th>
@@ -24,7 +24,7 @@
                            <th>Telefono</th>
                      </thead>
                      <tbody>
-                           <c: forEach items = "${personas}" var="item">
+                           <c:forEach items = "${personas}" var="item">
 
                               <tr>
                                   <td>${item.getId()}</td>
@@ -35,7 +35,7 @@
                                   <td>${item.getTelefono()}</td>
                               </tr>
 
-                           </c: forEach>
+                           </c:forEach>
                      </tbody>
                </table>
 

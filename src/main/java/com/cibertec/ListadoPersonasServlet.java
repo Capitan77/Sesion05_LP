@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(name = "ListadoPersonasServlet", urlPatterns = "/personas")
+@WebServlet(name = "ListadoPersonasServlet", urlPatterns = {"/","/personas"})
 public class ListadoPersonasServlet extends HttpServlet {
 
     private final PersonaDao personaDao = new PersonaDaoImpl();
