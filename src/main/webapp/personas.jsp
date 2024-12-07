@@ -14,14 +14,14 @@
                <h1 class="p-3 mb-2 bg-info-subtle text-info-emphasis card shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto p-2"
                style="width: 600px;">Personas Registradas</h1>
 
-               <table class="table table-hover table-bordered border border-info-subtle ">
+               <table class="table table-hover table-bordered border border-info-subtle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                      <thead >
-                           <th>ID</th>
-                           <th>Nombre</th>
-                           <th>Apellido</th>
-                           <th>Edad</th>
-                           <th>Correo</th>
-                           <th>Telefono</th>
+                           <th class="p-3 mb-2 bg-info text-dark">ID</th>
+                           <th class="p-3 mb-2 bg-info-subtle text-info-emphasis">Nombre</th>
+                           <th class="p-3 mb-2 bg-info-subtle text-info-emphasis">Apellido</th>
+                           <th class="p-3 mb-2 bg-info-subtle text-info-emphasis">Edad</th>
+                           <th class="p-3 mb-2 bg-info-subtle text-info-emphasis">Correo</th>
+                           <th class="p-3 mb-2 bg-info-subtle text-info-emphasis">Telefono</th>
                      </thead>
                      <tbody>
                            <c:forEach items = "${personas}" var="item">
